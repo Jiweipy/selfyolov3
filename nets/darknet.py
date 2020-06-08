@@ -85,7 +85,3 @@ def darknet53(pretrained, **kwargs):
 
     print(model)
     return model
-
-
-if __name__ == '__main__':
-    darknet53(None)
